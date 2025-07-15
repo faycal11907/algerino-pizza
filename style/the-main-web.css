@@ -1,0 +1,119 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+  background-color: #e63946;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f1faee;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #1d3557;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #457b9d;
+}
+
+/* Featured Items */
+.featured {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+.item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item h2 {
+  margin-top: 0.5rem;
+  color: #e63946;
+}
+
+.item p {
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #1d3557;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+.item a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.item h2 {
+  margin-top: 0.5rem;
+  color: #e63946;
+  text-decoration: none; /* Just in case it's added by default */
+}
