@@ -1,51 +1,119 @@
-/* Menu Page Specific Styles */
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
 
-.menu {
-  padding: 2rem;
-  background-color: #fefae0;
+body {
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+  background-color: #e63946;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
   text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f1faee;
 }
 
-.menu-title {
+.hero h2 {
   font-size: 2.5rem;
-  color: #e63946;
-  margin-bottom: 2rem;
+  color: #1d3557;
+  margin-bottom: 1rem;
 }
 
-.menu-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+.hero p {
+  font-size: 1.2rem;
+  color: #457b9d;
+}
+
+/* Featured Items */
+.featured {
+  display: flex;
+  justify-content: center;
   gap: 2rem;
+  padding: 2rem;
+  background-color: #ffffff;
 }
 
-.menu-item {
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  padding: 1rem;
+.item {
+  text-align: center;
   transition: transform 0.3s ease;
 }
 
-.menu-item:hover {
-  transform: scale(1.05);
+.item:hover {
+  transform: scale(1.1);
 }
 
-.menu-item img {
-  width: 100%;
-  height: 180px;
+.item img {
+  width: 200px;
+  height: 150px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.menu-item h2 {
-  font-size: 1.5rem;
-  color: #1d3557;
-  margin-top: 1rem;
-  text-decoration: none;
+.item h2 {
+  margin-top: 0.5rem;
+  color: #e63946;
 }
 
-.menu-item p {
+.item p {
   font-size: 1.2rem;
-  color: #ffb703;
+}
+
+/* Footer */
+footer {
+  background-color: #1d3557;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+.item a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.item h2 {
   margin-top: 0.5rem;
+  color: #e63946;
+  text-decoration: none; /* Just in case it's added by default */
 }

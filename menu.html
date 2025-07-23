@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Algerino Pizza - Home</title>
-  <link rel="stylesheet" href="style/style.css" />
+  <title>Algerino Pizza - Menu</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/menu.css">
 </head>
 <body>
 
@@ -21,35 +22,43 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Welcome to Algerino Pizza</h2>
-    <p>Enjoy the best Algerian-style pizza, burgers, tacos, and more!</p>
-  </section>
+  <!-- Menu Section -->
+  <section class="menu">
+    <h2 class="menu-title">Our Full Menu</h2>
 
-  <section class="featured">
-    <article class="item">
-      <a href="menu.html#pizza">
+    <div class="menu-grid">
+
+      <article id="pizza" class="menu-item">
         <img src="pizza/the main pizza.jpeg" alt="Pizza" />
         <h2>Pizza</h2>
-        <p>⭐⭐⭐⭐☆</p>
-      </a>
-    </article>
+        <p>⭐⭐⭐⭐⭐</p>
+      </article>
 
-    <article class="item">
-      <a href="menu.html#hamburger">
+      <article id="hamburger" class="menu-item">
         <img src="hamburger/the main hamberger.jpeg" alt="Hamburger" />
         <h2>Hamburger</h2>
-        <p>⭐⭐⭐⭐⭐</p>
-      </a>
-    </article>
+        <p>⭐⭐⭐⭐☆</p>
+      </article>
 
-    <article class="item">
-      <a href="menu.html#tacos">
+      <article id="tacos" class="menu-item">
         <img src="tacos/the main tacos.jpeg" alt="Tacos" />
         <h2>Tacos</h2>
         <p>⭐⭐⭐⭐☆</p>
-      </a>
-    </article>
+      </article>
+      
+      <article id="desserts" class="menu-item">
+        <img src="desserts/fruits/hd-cup-of-yogurt-with-fruits-transparent-png-735811696437108md20mjq3bb.png" alt="Desserts" />
+        <h2>Desserts</h2>
+        <p>⭐⭐⭐⭐⭐</p>
+      </article>
+
+      <article id="drinks" class="menu-item">
+        <img src="desserts/drinks/hd-cold-pepsi-soda-can-transparent-png-7040816951264369jvd2injjs.png" alt="Drinks" />
+        <h2>Drinks</h2>
+        <p>⭐⭐⭐⭐☆</p>
+      </article>
+
+    </div>
   </section>
 
   <!-- Footer -->
