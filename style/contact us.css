@@ -83,3 +83,11 @@
 .contact-form button:hover {
   background-color: #d62828;
 }
+
+textarea{
+  resize: none;
+}
+
+footer section h3{
+  color: #1d3557;
+}
